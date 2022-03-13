@@ -1,0 +1,18 @@
+404  sudo apt update
+  405  sudo apt upgrade
+  406  sudo apt install python3-django
+  408  django-admin --version
+  409  clear
+  410  sudo apt update
+  411  pip -v
+  412  clear
+  413  sudo apt install python3-pip python3-venv
+  414  git clone git://github.com/django/django ~/django-dev
+  415  cd ~/django-dev
+  416  python3 -m venv my_env
+  417  source my_env/bin/activate
+  418  pip install -e ~/django-dev
+  419  django-admin --version
+  420  source deactivate
+  421  deactivate
+
